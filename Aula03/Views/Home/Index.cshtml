@@ -1,0 +1,20 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div>
+    <form method="GET"
+        asp-action="GetForeach"
+        asp-controller="Home">
+        <div class="form-group">
+            
+
+            <label for="xDoForeach">Digite uma cor:</label>
+            <input type="text" name="color" id="xDoForeach"/>
+
+            <button type="submit">Enviar</button>
+        </div>
+    </form>
+
+    
+</div>
